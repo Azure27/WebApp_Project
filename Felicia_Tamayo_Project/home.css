@@ -1,0 +1,66 @@
+#images {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	width: 80%;
+	height: 80%;
+}
+.profile {
+	border-radius: 100px;
+}
+
+hr{
+	color: rgba(255,255,255,1.0);
+	border: 2px solid #ccc;
+}
+
+#uploaded {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+}
+
+b {
+	color: rgba(255,255,255,1.0);
+	font-family: High Tower Text;
+}
+
+.comments {
+	color: rgba(255,255,255,1.0);
+	font-family: High Tower Text;
+	font-size: 20px;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #000000;
+	border-radius: .4em;
+	padding: 40px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 1.438em solid transparent;
+	border-right-color: #000000;
+	border-left: 0;
+	margin-top: -1.437em;
+	margin-left: -1.437em;
+}
+
+body {
+overflow: hidden;
+}
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
